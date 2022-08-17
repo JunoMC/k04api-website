@@ -6,6 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>k04api &mdash; Hệ thống API thanh toán tự động</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coiny&display=swap">
     <link rel="shortcut icon" type="image/png" href="assets/images/icon/k04team.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
@@ -47,9 +48,13 @@
                     <nav>
                         <ul class="metismenu" id="menu">
                             <li class="active">
+                                <a href="maps.html"><i class="ti-map-alt"></i> <span>Trang chủ</span></a>
+                            </li>
+
+                            <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span style="text-transform: none;">Tổng quan</span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="/" style="text-transform: none;">Ngân hàng</a></li>
+                                    <li><a href="/" style="text-transform: none;">Ngân hàng</a></li>
                                     <li><a href="/" style="text-transform: none;">Ví điện tử</a></li>
                                 </ul>
                             </li>
@@ -204,7 +209,7 @@
                 <div class="container-fluid" style="padding-top: 30px">
                     <div class="row mb-4">
                         <div class="col-md-12">
-                            <div class="card-box-shadow">
+                            <div class="card-box-shadow bg-white">
                                 <div class="input-group mb-2 mr-sm-2">
                                     <div class="input-group-prepend">
                                         <div class="input-group-text bg-white" style="border: none"><img src="https://cdn-icons-png.flaticon.com/512/2098/2098339.png" width="64px"></div>
@@ -218,99 +223,193 @@
 
                 <div class="sales-report-area mt-5 mb-5">
                     <div class="row justify-content-center">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-3 mb-4">
-                            <div class="single-report mb-xs-30 box-zoom">
-                                <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa-solid fa-1"></i></div>
-                                    <div class="s-report-title d-flex justify-content-between">
-                                        <h4 class="header-title mb-0"></h4>
-                                        <p style="border-radius: 10px; font-size: 1.2em" class="text-light bg-success">Sẳn sàng</p>
+                        <div class="col-md-8 row justify-content-center">
+                            <div class="col-lg-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-regular fa-shield-keyhole"></i></div>
+                                        <div class="s-report-title">
+                                            <h3 class="header-title2">An toàn</h3>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <img src="/assets/images/banks/tpbank.png"/>
+
+                                    <div class="pl-2 pb-2 pr-2" style="text-align: justify;">
+                                        <span>- Chúng tôi luôn đảm bảo an toàn tuyệt đối về tất cả thông tin riêng tư của khách hàng.</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-3 mb-4">
-                            <div class="single-report mb-xs-30 box-zoom">
-                                <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa-solid fa-2"></i></div>
-                                    <div class="s-report-title d-flex justify-content-between">
-                                        <h4 class="header-title mb-0"></h4>
-                                        <p style="border-radius: 10px; font-size: 1.2em" class="text-light bg-success">Sẳn sàng</p>
+                            <div class="col-lg-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-regular fa-user-astronaut"></i></div>
+                                        <div class="s-report-title">
+                                            <h3 class="header-title2">Tiện lợi</h3>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <img src="/assets/images/banks/vcb.png"/>
+
+                                    <div class="pl-2 pb-2 pr-2" style="text-align: justify;">
+                                        <span>- Bạn có thể sử dụng mà không cần phải chờ đợi xét duyệt hay cung cấp giấy phép kinh doanh.</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-3 mb-4">
-                            <div class="single-report mb-xs-30 box-zoom">
-                                <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa-solid fa-3"></i></div>
-                                    <div class="s-report-title d-flex justify-content-between">
-                                        <h4 class="header-title mb-0"></h4>
-                                        <p style="border-radius: 10px; font-size: 1.2em" class="text-light bg-success">Sẳn sàng</p>
+                            <div class="col-lg-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-regular fa-badge-dollar"></i></div>
+                                        <div class="s-report-title">
+                                            <h3 class="header-title2">Tiết kiệm</h3>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <img src="/assets/images/banks/acb.png"/>
+
+                                    <div class="pl-2 pb-2 pr-2" style="text-align: justify;">
+                                        <span>- So với các website thanh toán khác, k04api rẻ hơn rất nhiều và phí gia hạn sử dụng cũng rất rẻ.</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-1"></div>
-
-                        <div class="col-md-3 mb-4">
-                            <div class="single-report mb-xs-30 box-zoom">
-                                <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa-solid fa-4"></i></div>
-                                    <div class="s-report-title d-flex justify-content-between">
-                                        <h4 class="header-title mb-0"></h4>
-                                        <p style="border-radius: 10px; font-size: 1.2em" class="text-light bg-success">Sẳn sàng</p>
+                            <div class="col-lg-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-regular fa-file-code"></i></div>
+                                        <div class="s-report-title">
+                                            <h3 class="header-title2">Tích hợp</h3>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <img src="/assets/images/banks/bidv.png"/>
+
+                                    <div class="pl-2 pb-2 pr-2" style="text-align: justify;">
+                                        <span>- Hệ thống tích hợp có tài liệu, nhanh chóng và chính xác, trả kết quả trong vòng chưa tới 10s.</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-3 mb-4">
-                            <div class="single-report mb-xs-30 box-zoom">
-                                <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa-solid fa-5"></i></div>
-                                    <div class="s-report-title d-flex justify-content-between">
-                                        <h4 class="header-title mb-0"></h4>
-                                        <p style="border-radius: 10px; font-size: 1.2em" class="text-light bg-success">Sẳn sàng</p>
+                            <div class="col-lg-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-regular fa-list-timeline"></i></div>
+                                        <div class="s-report-title">
+                                            <h3 class="header-title2">Thống kê chi tiết</h3>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <img src="/assets/images/banks/vtb.png"/>
+
+                                    <div class="pl-2 pb-2 pr-2" style="text-align: justify;">
+                                        <span>- Mọi thông tin giao dịch sẽ được thống kê chi tiết, thuận lợi cho việc theo dõi.</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-3 mb-4">
-                            <div class="single-report mb-xs-30 box-zoom">
-                                <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa-solid fa-6"></i></div>
-                                    <div class="s-report-title d-flex justify-content-between">
-                                        <h4 class="header-title mb-0"></h4>
-                                        <p style="border-radius: 10px; font-size: 1.2em" class="text-light bg-success">Sẳn sàng</p>
+                            <div class="col-lg-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-regular fa-headset"></i></div>
+                                        <div class="s-report-title">
+                                            <h3 class="header-title2">Hỗ trợ nhanh</h3>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <img src="/assets/images/banks/vpb.png"/>
+
+                                    <div class="pl-2 pb-2 pr-2" style="text-align: justify;">
+                                        <span>- Chúng tôi luôn sẵn lòng hỗ trợ khách hàng 24/7 và nhanh nhất có thể.</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                            <!-- BANKS
+
+                            <div class="col-lg-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-solid fa-1"></i></div>
+                                        <div class="s-report-title d-flex justify-content-between">
+                                            <h4 class="header-title mb-0"></h4>
+                                            <p style="border-radius: 10px; font-size: 1.1em;" class="text-light bg-success">Sẳn sàng</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <img src="/assets/images/banks/tpbank.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-solid fa-2"></i></div>
+                                        <div class="s-report-title d-flex justify-content-between">
+                                            <h4 class="header-title mb-0"></h4>
+                                            <p style="border-radius: 10px; font-size: 1.1em;" class="text-light bg-success">Sẳn sàng</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <img src="/assets/images/banks/vcb.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-solid fa-3"></i></div>
+                                        <div class="s-report-title d-flex justify-content-between">
+                                            <h4 class="header-title mb-0"></h4>
+                                            <p style="border-radius: 10px; font-size: 1.1em;" class="text-light bg-success">Sẳn sàng</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <img src="/assets/images/banks/acb.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-solid fa-4"></i></div>
+                                        <div class="s-report-title d-flex justify-content-between">
+                                            <h4 class="header-title mb-0"></h4>
+                                            <p style="border-radius: 10px; font-size: 1.1em;" class="text-light bg-success">Sẳn sàng</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <img src="/assets/images/banks/bidv.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-solid fa-5"></i></div>
+                                        <div class="s-report-title d-flex justify-content-between">
+                                            <h4 class="header-title mb-0"></h4>
+                                            <p style="border-radius: 10px; font-size: 1.1em;" class="text-light bg-success">Sẳn sàng</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <img src="/assets/images/banks/vtb.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="single-report mb-xs-30 box-zoom">
+                                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                                        <div class="icon"><i class="fa-solid fa-6"></i></div>
+                                        <div class="s-report-title d-flex justify-content-between">
+                                            <h4 class="header-title mb-0"></h4>
+                                            <p style="border-radius: 10px; font-size: 1.1em;" class="text-light bg-success">Sẳn sàng</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <img src="/assets/images/banks/vpb.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            -->
+
+                        </div>
                     </div>
                 </div>
                 <!-- sales report area end -->

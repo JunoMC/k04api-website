@@ -6,8 +6,12 @@
 
 /*google font*/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Poppins:100,300,400,500,600,700,800,900');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Poppins:100,300,400,500,600,700,800,900'); */
 /* Your default CSS. */
+
+body {
+    font-family: monospace;
+}
 
 * {
     margin: 0;
